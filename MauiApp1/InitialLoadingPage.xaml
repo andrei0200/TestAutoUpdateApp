@@ -8,5 +8,9 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label
+            Text="{Binding IsConnected}"
+            Style="{StaticResource Headline}"
+            SemanticProperties.HeadingLevel="Level1" />
     </VerticalStackLayout>
 </ContentPage>
